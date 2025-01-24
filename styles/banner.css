@@ -51,7 +51,7 @@
     display: none;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1080px) {
     .banner__titulo {
         display: none;   
     }

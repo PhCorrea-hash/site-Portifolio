@@ -86,7 +86,7 @@
     margin-right: 6em;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1080px) {
     .container__descricao__texto {
         display: none;
     }
