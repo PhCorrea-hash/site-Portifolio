@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/conteudoprincipal.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --branco: #FFFFFF;
+    --ciano: #89A8B2;
+    --bege: #D7D3BF;
+    --preto: #000000;
+    --ceu: #B3C8CF;
+    --fonte-principal:'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: var();
+    background-color: var();
+    font-family: var();
+    font-size: 16px;
+    font-weight: 400;
+}

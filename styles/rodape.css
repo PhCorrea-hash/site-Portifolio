@@ -1,0 +1,23 @@
+.rodape__texto__titulo {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 2em;
+}
+
+.rodape {
+    display: flex;
+    justify-content: left;
+}
+.listas {
+    display: flex;
+    justify-content: center;
+    margin-left: 30em;
+    gap: 15em;
+}
+
+.lista__menu {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    gap: 1em;
+}

@@ -1,0 +1,109 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10em;
+    margin: 0;
+    padding: 0;
+}
+
+.container__descricao-celular {
+    display: none;
+}
+
+.container__descricao__titulo-celular {
+    display: none;
+}
+
+.container__descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    padding: 0;
+    margin-left: 1.5em;
+}
+
+.container__descricao__texto {
+    font-size: 20px;
+    font-weight: 500;
+    background: var(--bege);
+    margin: 2.5em;
+    padding: 5em;
+    border-radius: 2em;
+}
+
+.container__swiper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.container__swiper-swiper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--bege);
+    padding: 0em 9em 3em 9em;
+    border-radius: 2.5em;
+    margin-top: 5.5em;
+    margin-right: 5em;
+}
+
+.container__swiper-swiper__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 2em;
+}
+
+.container__swiper-swiper__titulo-secundario {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.container__swiper-swiper__texto {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0.5em;
+}
+
+.container__swiper-swiper__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.0em;
+    margin: 2em;
+    background: var(--bege);
+    padding: 1em 2.5em 1em 2.5em;
+    border-radius: 10em;
+    text-decoration: none;
+    color: var(--preto);
+    margin-right: 6em;
+}
+
+@media screen and (max-width: 390px) {
+    .container__descricao__texto {
+        display: none;
+    }
+
+    .container__descricao__imagem {
+        display: none;
+    }
+
+    .container__swiper {
+        display: none;
+    }
+
+    .container__descricao-celular {
+        display: flex;
+    }
+
+    .container__descricao__titulo-celular {
+        display: block;
+    }
+}

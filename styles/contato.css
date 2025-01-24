@@ -1,0 +1,5 @@
+.contato {
+    display: flex;
+    background: var(--bege);
+    padding: 5.5em;
+}

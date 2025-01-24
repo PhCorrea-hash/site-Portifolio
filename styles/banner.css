@@ -1,0 +1,92 @@
+.banner {
+    background: var(--ciano);
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+
+.banner__titulo {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 1em;
+}
+
+.banner__titulo__destaque {
+    font-weight: 800;
+    color: var(--branco) ;
+}
+
+.banner__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__links {
+    text-decoration: none;
+    color: var(--branco);
+    text-align: center;
+    margin: 0.2em;
+}
+
+.banner__topicos {
+    margin: 2em 0.5em;
+}
+
+.banner__link {
+    color: var(--branco);
+    padding: 1em;
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.banner__titulo__celular {
+    display: none;
+}
+
+.banner__lista-celular {
+    display: none;
+}
+
+@media screen and (max-width: 390px) {
+    .banner__titulo {
+        display: none;   
+    }
+
+    .destaque {
+        display: block;
+    }
+
+    .banner__titulo__celular {
+        display: block;
+        color: var(--branco);
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+
+    .banner__links {
+        display: none;
+    }
+
+    .banner__link-imagem {
+        display: none;
+    }
+
+    .banner__lista-celular {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .banner__topicos-celular {
+        display: flex;
+    }
+
+    .banner__topicos {
+        margin: 0.2em;
+    }
+}
