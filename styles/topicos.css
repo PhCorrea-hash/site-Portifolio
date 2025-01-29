@@ -1,6 +1,6 @@
 .topicos {
     display: flex;
-    background: var(--ciano);
+    background: var(--branco);
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -12,6 +12,7 @@
     font-weight: 700;
     margin-top: 0.7em;
     margin-bottom: 0.3EM;
+    color: white;
 }
 
 .topicos__itens-lista {
@@ -20,7 +21,7 @@
 }
 
 .topicos__itens-botao {
-    background: var(--ceu);
+    background: white;
     padding: 1em 7.5em;
     margin: 1em;
     border-radius: 1em;

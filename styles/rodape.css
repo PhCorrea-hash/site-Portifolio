@@ -2,17 +2,20 @@
     font-size: 26px;
     font-weight: 600;
     margin: 2em;
+    color: white;
 }
 
 .rodape {
     display: flex;
     justify-content: left;
+    padding: 3em 0;
 }
 .listas {
     display: flex;
     justify-content: center;
     margin-left: 30em;
     gap: 15em;
+    color: white;
 }
 
 .lista__menu {
@@ -20,4 +23,7 @@
     flex-direction: column;
     padding: 3em;
     gap: 1em;
+    color: white;
+    border-left: 1px solid var(--cinza);
+    padding-left: 1em;
 }

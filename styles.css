@@ -6,17 +6,19 @@
 @import url("styles/rodape.css");
 
 :root {
-    --branco: #FFFFFF;
-    --ciano: #89A8B2;
+    --branco: #8E1616;
+    --hover: #c45353;
+    --ciano: #EEEEEE;
     --bege: #D7D3BF;
     --preto: #000000;
     --ceu: #B3C8CF;
     --fonte-principal:'Poppins', sans-serif;
     --fonte-secundaria: 'Josefin Sans', sans-serif;
+    --cinza: #EEEEEE;
 }
 
 body {
-    background-color: var();
+    background-color: #1D1616;
     background-color: var();
     font-family: var();
     font-size: 16px;
